@@ -1,0 +1,93 @@
+@font-face {
+    font-family: MPLUS1p-regular;
+    src: url(fonts/M_PLUS_1p/MPLUS1p-Regular.ttf);
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    font-family: MPLUS1p-regular;
+}
+
+.page{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+
+.left-side .dashboard img {
+    width: 50px;
+    height: 50px;
+}
+
+ img{
+    width: 30px;
+    height: 30px;
+}
+
+.text{
+    font-size: 20px;
+}
+
+.dashboard .text{
+    font-size: 35px;
+}
+
+.left-side{
+    padding-left: 30px;
+    padding-top: 30px;
+    background-color: #a78bfa;
+    color: black;
+    display: grid;
+    grid-template-rows: 100px 350px 100px;
+}
+
+.dashboard{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+
+.top-menu{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    grid-template-rows: repeat(5, 50px);
+}
+.bottom-menu{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    grid-template-rows: repeat(3, 50px);
+}
+.right-side{
+    display: grid;
+    grid-template-rows: 1fr 5fr;
+}
+.top-bar{
+    background-color: white;
+    padding: 10px;
+}
+.top-top{
+    display: grid;
+    grid-template-columns: 100px 500px 20px 20px 200px;
+}
+
+.bottom-bottom{
+    display: grid;
+    grid-template-columns: 20px 100px 200px 100px 100px 100px ;
+}
+
+.main-content{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    background-color: #4c1d95;
+    padding: 10px;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+.card{
+    background-color: #c4b5fd;
+}
